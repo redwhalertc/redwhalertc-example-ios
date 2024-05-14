@@ -1,4 +1,4 @@
-# yzmeeting-example-ios
+# redwhalertc-example-ios
 
 # 概述
 
@@ -17,7 +17,7 @@
 2. 集成本SDK的APP需要有用户体系，调用SDK时需要指定用户名，用户ID，用户头像地址这些用户信息；
 3. 集成会议功能时，集成本SDK的APP需要提供创建会议或者加入会议的入口交互能力，如果是加入会议则需要提供会议号;
 4. 集成通话功能时，集成本SDK的APP的系统需要具备推送机制，APP需要具备呼叫入口交互能力，接收呼叫推送后调起本SDK的被叫接口;
-5. 获取SDK， IOS SDK从如下repo下载: https://github.com/yunzhoucomm/yzmeeting-sdk-ios.git
+5. 获取SDK， IOS SDK从如下repo下载: https://github.com/yunzhoucomm/redwhalertc-sdk-ios.git
 
 # 快速开始
 
