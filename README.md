@@ -17,7 +17,7 @@
 2. 集成本SDK的APP需要有用户体系，调用SDK时需要指定用户名，用户ID，用户头像地址这些用户信息；
 3. 集成会议功能时，集成本SDK的APP需要提供创建会议或者加入会议的入口交互能力，如果是加入会议则需要提供会议号;
 4. 集成通话功能时，集成本SDK的APP的系统需要具备推送机制，APP需要具备呼叫入口交互能力，接收呼叫推送后调起本SDK的被叫接口;
-5. 获取SDK， IOS SDK从如下repo下载: https://github.com/yunzhoucomm/redwhalertc-sdk-ios.git
+5. 获取SDK， IOS SDK从如下repo下载: https://github.com/redwhalertc/redwhalertc-sdk-ios
 
 # 快速开始
 
@@ -59,18 +59,18 @@ podfile文件会自动执行Podfile_ReactNative.rb脚本，自动判断是否存
 ### 导入SDK文件夹
 该SDK为静态库，里面包含.a文件和bundle资源文件。
 将SDK文件夹引入到项目，如下图：
-![avatar](./yunzhoumeeting/images/project_tree.png)
+![avatar](./Redwhale/images/project_tree.png)
 
 ### 导入头文件
 在需要实现功能的类中导入头文件
 ```
-#import "YunzhouMeetingApi.h"
+#import "RedwhaleMeetingApi.h"
 ```
 ## 接口说明
 ### 启动会议
 ```
 /**
- * startWithController // yunzhoumeeting SDK 入口
+ * startWithController // redwhalertc SDK 入口
  *
  * @param viewController       需要弹出视图的控制器
  * @param options              传入参数信息 ： （userInfo, serverUrl）
@@ -108,7 +108,7 @@ typedef NS_ENUM(NSUInteger, EntryType) {
 
 代码调用示例如下：
 ```
-    [[YunzhouMeetingApi sharedInstance] startWithController:self options:@{
+    [[RedwhaleMeetingApi sharedInstance] startWithController:self options:@{
          //请传入您的应用的用户信息。包含userId, userName, avatar，本示例填入的信息需要修改
         @"userInfo" : userDic,    
         //请传入您要连接的媒体服务器的地址和端口号
@@ -126,7 +126,7 @@ NSDictionary *userDic = @{@"userId" : @"xxxx",
                               @"userName" : @"xxxx",
                               @"avatar" : @"xxxx"
     };
-    [[YunzhouMeetingApi sharedInstance] startWithController:self options:@{
+    [[RedwhaleMeetingApi sharedInstance] startWithController:self options:@{
         @"userInfo" : userDic,
         @"serverUrl" : @"xxxx",
         @"participant" : @[
@@ -173,7 +173,7 @@ NSDictionary *userDic = @{@"userId" : @"xxxx",
                               @"userName" : @"xxxx",
                               @"avatar" : @"xxxx"
     };
-    [[YunzhouMeetingApi sharedInstance] startWithController:self options:@{
+    [[RedwhaleMeetingApi sharedInstance] startWithController:self options:@{
         @"userInfo" : userDic,
         @"meetingData" : @{
             @"serverUrl" : @"xxxx",
