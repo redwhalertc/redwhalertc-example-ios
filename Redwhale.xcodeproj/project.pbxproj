@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B4ED9242CC4D995873819D /* libPods-Redwhale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A084346F101611EE05B20AF /* libPods-Redwhale.a */; };
+		913B9E322BB66AFC00C93A27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913B9E312BB66AFC00C93A27 /* ViewController.m */; };
+		917D4F412BF1C9A300742ECD /* libRedwhalesdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 917D4F3D2BF1C9A300742ECD /* libRedwhalesdk.a */; };
+		917D4F422BF1C9A300742ECD /* Redwhalesdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 917D4F3E2BF1C9A300742ECD /* Redwhalesdk.bundle */; };
+		91A167FA2B70BF1600D82FF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A167F92B70BF1600D82FF8 /* AppDelegate.m */; };
+		91A168032B70BF1600D82FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A168012B70BF1600D82FF8 /* Main.storyboard */; };
+		91A168052B70BF1700D82FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A168042B70BF1700D82FF8 /* Assets.xcassets */; };
+		91A168082B70BF1700D82FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A168062B70BF1700D82FF8 /* LaunchScreen.storyboard */; };
+		91A1680B2B70BF1700D82FF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A1680A2B70BF1700D82FF8 /* main.m */; };
+		91A168132B70E07100D82FF8 /* Redwhale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A168122B70E07100D82FF8 /* Redwhale.swift */; };
+		91F0BACA2B9B27850047C662 /* my_video_creat_meeting_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F0BAC12B9B27850047C662 /* my_video_creat_meeting_phone.png */; };
+		91F0BACB2B9B27850047C662 /* my_video_logo_phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F0BAC22B9B27850047C662 /* my_video_logo_phone@3x.png */; };
+		91F0BACC2B9B27850047C662 /* my_video_logo_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F0BAC32B9B27850047C662 /* my_video_logo_phone@2x.png */; };
+		91F0BACD2B9B27850047C662 /* my_video_join_meeting_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F0BAC42B9B27850047C662 /* my_video_join_meeting_phone.png */; };
+		91F0BACE2B9B27850047C662 /* my_video_creat_meeting_phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F0BAC52B9B27850047C662 /* my_video_creat_meeting_phone@3x.png */; };
+		91F0BACF2B9B27850047C662 /* my_video_creat_meeting_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F0BAC62B9B27850047C662 /* my_video_creat_meeting_phone@2x.png */; };
+		91F0BAD02B9B27850047C662 /* my_video_join_meeting_phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F0BAC72B9B27850047C662 /* my_video_join_meeting_phone@3x.png */; };
+		91F0BAD12B9B27850047C662 /* my_video_logo_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F0BAC82B9B27850047C662 /* my_video_logo_phone.png */; };
+		91F0BAD22B9B27850047C662 /* my_video_join_meeting_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F0BAC92B9B27850047C662 /* my_video_join_meeting_phone@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A084346F101611EE05B20AF /* libPods-Redwhale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Redwhale.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		913B9E312BB66AFC00C93A27 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		917D4F3B2BF1C9A300742ECD /* RedwhaleMeetingApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedwhaleMeetingApi.h; sourceTree = "<group>"; };
+		917D4F3D2BF1C9A300742ECD /* libRedwhalesdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRedwhalesdk.a; sourceTree = "<group>"; };
+		917D4F3E2BF1C9A300742ECD /* Redwhalesdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Redwhalesdk.bundle; sourceTree = "<group>"; };
+		91A167F52B70BF1600D82FF8 /* Redwhale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redwhale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A167F82B70BF1600D82FF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91A167F92B70BF1600D82FF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91A167FE2B70BF1600D82FF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91A168022B70BF1600D82FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91A168042B70BF1700D82FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91A168072B70BF1700D82FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91A168092B70BF1700D82FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A1680A2B70BF1700D82FF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91A168112B70E07100D82FF8 /* Redwhale-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Redwhale-Bridging-Header.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91A168122B70E07100D82FF8 /* Redwhale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redwhale.swift; sourceTree = "<group>"; };
+		91F0BAC12B9B27850047C662 /* my_video_creat_meeting_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_video_creat_meeting_phone.png; sourceTree = "<group>"; };
+		91F0BAC22B9B27850047C662 /* my_video_logo_phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_video_logo_phone@3x.png"; sourceTree = "<group>"; };
+		91F0BAC32B9B27850047C662 /* my_video_logo_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_video_logo_phone@2x.png"; sourceTree = "<group>"; };
+		91F0BAC42B9B27850047C662 /* my_video_join_meeting_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_video_join_meeting_phone.png; sourceTree = "<group>"; };
+		91F0BAC52B9B27850047C662 /* my_video_creat_meeting_phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_video_creat_meeting_phone@3x.png"; sourceTree = "<group>"; };
+		91F0BAC62B9B27850047C662 /* my_video_creat_meeting_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_video_creat_meeting_phone@2x.png"; sourceTree = "<group>"; };
+		91F0BAC72B9B27850047C662 /* my_video_join_meeting_phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_video_join_meeting_phone@3x.png"; sourceTree = "<group>"; };
+		91F0BAC82B9B27850047C662 /* my_video_logo_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_video_logo_phone.png; sourceTree = "<group>"; };
+		91F0BAC92B9B27850047C662 /* my_video_join_meeting_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_video_join_meeting_phone@2x.png"; sourceTree = "<group>"; };
+		A724F757BE723D6A14E30E44 /* Pods-Redwhale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redwhale.debug.xcconfig"; path = "Target Support Files/Pods-Redwhale/Pods-Redwhale.debug.xcconfig"; sourceTree = "<group>"; };
+		C08F24EEB74D8A0BACA4D300 /* Pods-Redwhale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redwhale.release.xcconfig"; path = "Target Support Files/Pods-Redwhale/Pods-Redwhale.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91A167F22B70BF1600D82FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B4ED9242CC4D995873819D /* libPods-Redwhale.a in Frameworks */,
+				917D4F412BF1C9A300742ECD /* libRedwhalesdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51E9282B1868C546F6270E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A084346F101611EE05B20AF /* libPods-Redwhale.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D3CF1BEFD1EF159A94046AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A724F757BE723D6A14E30E44 /* Pods-Redwhale.debug.xcconfig */,
+				C08F24EEB74D8A0BACA4D300 /* Pods-Redwhale.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		917D4F3C2BF1C9A300742ECD /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				917D4F3B2BF1C9A300742ECD /* RedwhaleMeetingApi.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		917D4F3F2BF1C9A300742ECD /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				917D4F3D2BF1C9A300742ECD /* libRedwhalesdk.a */,
+				917D4F3E2BF1C9A300742ECD /* Redwhalesdk.bundle */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		917D4F402BF1C9A300742ECD /* Redwhalesdk */ = {
+			isa = PBXGroup;
+			children = (
+				917D4F3C2BF1C9A300742ECD /* headers */,
+				917D4F3F2BF1C9A300742ECD /* resource */,
+			);
+			path = Redwhalesdk;
+			sourceTree = "<group>";
+		};
+		91A167EC2B70BF1600D82FF8 = {
+			isa = PBXGroup;
+			children = (
+				91A167F72B70BF1600D82FF8 /* Redwhale */,
+				91A167F62B70BF1600D82FF8 /* Products */,
+				6D3CF1BEFD1EF159A94046AD /* Pods */,
+				51E9282B1868C546F6270E50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91A167F62B70BF1600D82FF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91A167F52B70BF1600D82FF8 /* Redwhale.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91A167F72B70BF1600D82FF8 /* Redwhale */ = {
+			isa = PBXGroup;
+			children = (
+				917D4F402BF1C9A300742ECD /* Redwhalesdk */,
+				91F0BAC02B9B27850047C662 /* images */,
+				91A167F82B70BF1600D82FF8 /* AppDelegate.h */,
+				91A167F92B70BF1600D82FF8 /* AppDelegate.m */,
+				91A167FE2B70BF1600D82FF8 /* ViewController.h */,
+				913B9E312BB66AFC00C93A27 /* ViewController.m */,
+				91A168012B70BF1600D82FF8 /* Main.storyboard */,
+				91A168042B70BF1700D82FF8 /* Assets.xcassets */,
+				91A168062B70BF1700D82FF8 /* LaunchScreen.storyboard */,
+				91A168092B70BF1700D82FF8 /* Info.plist */,
+				91A1680A2B70BF1700D82FF8 /* main.m */,
+				91A168122B70E07100D82FF8 /* Redwhale.swift */,
+				91A168112B70E07100D82FF8 /* Redwhale-Bridging-Header.h */,
+			);
+			path = Redwhale;
+			sourceTree = "<group>";
+		};
+		91F0BAC02B9B27850047C662 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				91F0BAC12B9B27850047C662 /* my_video_creat_meeting_phone.png */,
+				91F0BAC22B9B27850047C662 /* my_video_logo_phone@3x.png */,
+				91F0BAC32B9B27850047C662 /* my_video_logo_phone@2x.png */,
+				91F0BAC42B9B27850047C662 /* my_video_join_meeting_phone.png */,
+				91F0BAC52B9B27850047C662 /* my_video_creat_meeting_phone@3x.png */,
+				91F0BAC62B9B27850047C662 /* my_video_creat_meeting_phone@2x.png */,
+				91F0BAC72B9B27850047C662 /* my_video_join_meeting_phone@3x.png */,
+				91F0BAC82B9B27850047C662 /* my_video_logo_phone.png */,
+				91F0BAC92B9B27850047C662 /* my_video_join_meeting_phone@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91A167F42B70BF1600D82FF8 /* Redwhale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A1680E2B70BF1700D82FF8 /* Build configuration list for PBXNativeTarget "Redwhale" */;
+			buildPhases = (
+				787C8EB03F63798CF08A2593 /* [CP] Check Pods Manifest.lock */,
+				91A167F12B70BF1600D82FF8 /* Sources */,
+				91A167F22B70BF1600D82FF8 /* Frameworks */,
+				91A167F32B70BF1600D82FF8 /* Resources */,
+				CD8964C4812E50B8F31E9373 /* [CP] Copy Pods Resources */,
+				D57804D72D4F5C29432A5D1B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Redwhale;
+			productName = Redwhale;
+			productReference = 91A167F52B70BF1600D82FF8 /* Redwhale.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91A167ED2B70BF1600D82FF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					91A167F42B70BF1600D82FF8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 91A167F02B70BF1600D82FF8 /* Build configuration list for PBXProject "Redwhale" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91A167EC2B70BF1600D82FF8;
+			productRefGroup = 91A167F62B70BF1600D82FF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91A167F42B70BF1600D82FF8 /* Redwhale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91A167F32B70BF1600D82FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F0BAD02B9B27850047C662 /* my_video_join_meeting_phone@3x.png in Resources */,
+				91F0BACA2B9B27850047C662 /* my_video_creat_meeting_phone.png in Resources */,
+				91A168082B70BF1700D82FF8 /* LaunchScreen.storyboard in Resources */,
+				91F0BACC2B9B27850047C662 /* my_video_logo_phone@2x.png in Resources */,
+				91F0BACB2B9B27850047C662 /* my_video_logo_phone@3x.png in Resources */,
+				91F0BACE2B9B27850047C662 /* my_video_creat_meeting_phone@3x.png in Resources */,
+				917D4F422BF1C9A300742ECD /* Redwhalesdk.bundle in Resources */,
+				91A168052B70BF1700D82FF8 /* Assets.xcassets in Resources */,
+				91F0BACF2B9B27850047C662 /* my_video_creat_meeting_phone@2x.png in Resources */,
+				91F0BAD12B9B27850047C662 /* my_video_logo_phone.png in Resources */,
+				91F0BACD2B9B27850047C662 /* my_video_join_meeting_phone.png in Resources */,
+				91A168032B70BF1600D82FF8 /* Main.storyboard in Resources */,
+				91F0BAD22B9B27850047C662 /* my_video_join_meeting_phone@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		787C8EB03F63798CF08A2593 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Redwhale-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8964C4812E50B8F31E9373 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Redwhale/Pods-Redwhale-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Redwhale/Pods-Redwhale-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Redwhale/Pods-Redwhale-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57804D72D4F5C29432A5D1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Redwhale/Pods-Redwhale-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Redwhale/Pods-Redwhale-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Redwhale/Pods-Redwhale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91A167F12B70BF1600D82FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A167FA2B70BF1600D82FF8 /* AppDelegate.m in Sources */,
+				91A1680B2B70BF1700D82FF8 /* main.m in Sources */,
+				913B9E322BB66AFC00C93A27 /* ViewController.m in Sources */,
+				91A168132B70E07100D82FF8 /* Redwhale.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91A168012B70BF1600D82FF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91A168022B70BF1600D82FF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91A168062B70BF1700D82FF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91A168072B70BF1700D82FF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91A1680C2B70BF1700D82FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91A1680D2B70BF1700D82FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91A1680F2B70BF1700D82FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A724F757BE723D6A14E30E44 /* Pods-Redwhale.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KY3S9BQDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Redwhale/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "红鲸";
+				INFOPLIST_KEY_NSCameraUsageDescription = "摄像机权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "麦克风权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Redwhale/Redwhalesdk",
+					"$(PROJECT_DIR)/Redwhale/Redwhalesdk/resources",
+					"$(PROJECT_DIR)/Redwhale/Redwhalesdk/resource",
+					"$(PROJECT_DIR)/Redwhale/Redwhalesdk/resource",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunjing.developer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Redwhale/Redwhale-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91A168102B70BF1700D82FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08F24EEB74D8A0BACA4D300 /* Pods-Redwhale.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KY3S9BQDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Redwhale/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "红鲸";
+				INFOPLIST_KEY_NSCameraUsageDescription = "摄像机权限";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "麦克风权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Redwhale/Redwhalesdk",
+					"$(PROJECT_DIR)/Redwhale/Redwhalesdk/resources",
+					"$(PROJECT_DIR)/Redwhale/Redwhalesdk/resource",
+					"$(PROJECT_DIR)/Redwhale/Redwhalesdk/resource",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.Redwhale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Redwhale/Redwhale-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91A167F02B70BF1600D82FF8 /* Build configuration list for PBXProject "Redwhale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A1680C2B70BF1700D82FF8 /* Debug */,
+				91A1680D2B70BF1700D82FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A1680E2B70BF1700D82FF8 /* Build configuration list for PBXNativeTarget "Redwhale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A1680F2B70BF1700D82FF8 /* Debug */,
+				91A168102B70BF1700D82FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91A167ED2B70BF1600D82FF8 /* Project object */;
+}
